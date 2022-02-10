@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+.header .header-logo .logo-img{
+    margin: 0 0 0 30px;
+}
+.header .header-descr{
+    display: flex;
+    align-items: center;
+    opacity: 60%;
+    color: white;
+}
+.header .header-descr .descr{
+    margin: 0 10px;
+}
+
+.header .header-other{
+    display: flex;
+    align-items: center;
+}
+
+.lang{
+    color: white;
+    margin: 0 0 0 20px;
+
+}
+.new{
+    color: white;
+}
+.other-img{
+    margin: 0 8px 0 0;    
+}
+
+.sunrise-bg{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.people-bg{
+    position: absolute;
+    width: 100%;
+    margin: 45px 0 0 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 1080px;
+}
+
+.main .main-new{
+    display: block;
+    margin: 0 auto;
+    opacity: 1;
+    position: relative;
+    bottom: 140px;
+}
+
+.main .main-Arena{
+    margin: -250px 0px 0px 267px;
+    width: 70%;
+
+}
+
+.main .Scroll-down{
+    position: relative;
+    display: block;
+    margin: 150px auto 0px auto;
+}
+
+.main .main-title{
+    text-align: center;
+    font-size: 64px;
+    color:white;
+    opacity: 0;
+}
+
+.main .main-subtitle{
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    opacity: 0;
+}
